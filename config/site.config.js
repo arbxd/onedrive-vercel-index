@@ -7,7 +7,7 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'Ihsan@587st7.onmicrosoft.com',
+  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'aditya@587st7.onmicrosoft.com',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
@@ -17,7 +17,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "iHSAN",
+  title: "Aditya",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/Public',
@@ -45,16 +45,24 @@ module.exports = {
   protectedRoutes: ['/影视/加密', '/文件/加密', '/书籍/加密'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:ihsanulrahman@gmail.com',
+  email: 'mailto:aditya@587st7.onmicrosoft.com',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
     {
-      name: 'Telegram',
-      link: 'https://t.me/ihsanulrahman',
+      name: 'Youtube',
+      link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     },
+    {
+      name: 'Telegram',
+      link: 'https://t.me/toota_hua_saaz_hoon_mai',
+    },
+    {
+      name: 'Github',
+      link: 'https://github.com/arbxd',
+    }
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
